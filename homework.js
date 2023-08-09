@@ -217,8 +217,8 @@ function breakStatement(num) {
    var arrayNumero = [];
    var contador = 0
    while (contador < 10){                //a medio terminar!!!!!!!!!!!!!
-      arrayNumero.push(num*2);
-      i++;
+      arrayNumero.push(num+2);
+      contador++;
       if ()
    }
    return arrayNumero;
@@ -231,6 +231,15 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+   var contador = 0;
+   var nuevoArray = [];
+   while (contador < 10) { 
+      if (contador ===5){continue};
+      nuevoArray.push(num +2);
+      contador++;
+   } 
+return nuevoArray;
+      
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
